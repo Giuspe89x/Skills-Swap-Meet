@@ -20,7 +20,7 @@ export default defineConfig({
         ) {
           return; 
         }
-
+base: '/Skills-Swap-Meet/',
         // FAIL build on unresolved imports
         if (warning.code === 'UNRESOLVED_IMPORT') {
           throw new Error(`Build failed due to unresolved import:\n${warning.message}`);
